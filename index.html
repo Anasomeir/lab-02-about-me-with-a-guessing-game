@@ -6,24 +6,66 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lab: 02 - About Me, with a guessing game</title>
+  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <header>
-    <h1 class="title">About Me, with a guessing game</h1>
+    <section>
+      <h1 class="title">
+        <span class="mark">Hi, my name is</span>
+        Mohammad Abu Mattar
+      </h1>
+      <h2 class="info">I build things for the web.</h2>
+      <p class="short-info">I'm a software engineer based in Amman, exceptional websites developer (and occasionally
+        designing), and
+        everything in between.</p>
+    </section>
   </header>
+  <div class="navbar sticky">
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
   <main>
-    <div class="img"><img src="./img/my-pic-001.jpg" alt=""></div>
 
-    <h2 id="myName"> Hi! 👋 My name is Mohammad Abu Mattar,</h2>
-    <section class="info">
-      <p>My age is 25, and I was born on May 2, 1995 🎈</p>
-      <p>I graduate 👨‍🎓 from Isra University</p>
-      <p>I have a bachelor degree in Software Engineering 👨‍💻</p>
-      <p>In past, I work as a lab supervisor/TA 👨‍💻</p>
-      <p>I don't have a preference for cats 🐱 and dogs 🐶; I adore them</p>
-      <p>Medals were won in the 100m, 300m, and 600m sprints 🏃</p>
+    <h2 id="about"><span>About</span> Me</h2>
+    <section class="about">
+      <img src="./img/profile.jpg" alt="profile">
+      <p>Hello! I’m Mohammad Abu Mattar, a Software Engineering based in Amman, Jordan. I enjoy creating things that
+        live on the internet, whether that be websites, applications, or anything in between. Shortly after graduating
+        from Isra University, I joined the engineering team at Isra University as a lab-supervisor where I work on a
+        wide variety of interesting and meaningful projects on a daily basis.</p>
+    </section>
+
+    <h2 id="work"><span>W</span>ork</h2>
+    <section class="work">
+      <ul>
+        <li><a href="https://mkabumattar.github.io/Encryption-Translator-Demo/" target="__blank"><span>Encryption</span>
+            Translator</a></li>
+        <li><a href="https://more-math.netlify.app/" target="__blank"><span>Math</span>ematics</a></li>
+        <li><a href="https://warframe-info.netlify.com/" target="__blank"><span>Warframe</span> API</a></li>
+        <li><a href="https://mkabumattar.github.io/Hello-World/" target="__blank"><span>Hello World</span> in 716
+            programming
+            languages</a></li>
+        <li><a href="https://mkabumattar.github.io/Jordanian-Law/" target="__blank"><span>Jordanian</span> Law</a></li>
+        <li><a href="https://mkabumattar.github.io/Live-Editor/" target="__blank"><span>Live</span> Editor</a></li>
+        <li><a href="https://mkabumattar.github.io/Your-Magic-Square-and-Number/" target="__blank"><span>Your
+              Magic</span> Square
+            and Number</a></li>
+        <li><a href="https://mkabumattar.github.io/Password-Generator/" target="__blank"><span>Password</span>
+            Generator</a></li>
+      </ul>
+    </section>
+
+    <h2 id="contact"><span>Co</span>ntact</h2>
+    <section class="contact">
+      <p><a href="mailto:mohammad.khaled@outlook.com">mohammad.khaled@outlook.com</a></p>
     </section>
   </main>
   <footer>
