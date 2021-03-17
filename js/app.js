@@ -471,3 +471,32 @@ do
 console.log('Your points: '+ point);
 
 alert('Your points: '+ point);
+
+
+text = 'guess a number between 1-10?';
+
+let numberList;
+
+tryCount = 5;
+
+do
+{
+  numberList = prompt(text+ '\nYou have a '+ tryCount +' try');
+
+  if(Number(numberList) === 5)
+  {
+    alert('guess good');
+    point++;
+    break;
+  }
+  else if (Number(numberList) > 5)
+  {
+    alert('too high');
+  }
+  else if (Number(numberList) < 5)
+  {
+    alert('too low');
+  }
+
+  tryCount -= 1;
+} while(numberList && tryCount > 0);
