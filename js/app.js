@@ -509,4 +509,4 @@ do
   }
 
   tryCount -= 1;
-} while(numberList && tryCount > 0);
+} while(tryCount > 0);
