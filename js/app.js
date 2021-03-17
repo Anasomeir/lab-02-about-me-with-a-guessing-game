@@ -158,7 +158,7 @@ do
 
   if(watchList.toLocaleLowerCase() === '1' || watchList.toLocaleLowerCase() === '3' || watchList.toLocaleLowerCase() === '5')
   {
-    alert('good guess, ' + wList[watchList]);
+    alert('good guess, ' + wList[Number(watchList)-1]);
     point++;
     break;
   }
@@ -173,7 +173,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + wList[1] + '\n' + wList[3] + '\n' + wList[5]);
+  alert('Correct answer: \n' + wList[1] + '\n' + wList[3] + '\n' + wList[5]);
 }
 
 console.log('Your points: '+ point);
@@ -198,7 +198,7 @@ do
 
   if(colorList.toLocaleLowerCase() === '1' || colorList.toLocaleLowerCase() === '3')
   {
-    alert('good guess ' + cList[colorList]);
+    alert('good guess ' + cList[Number(colorList)-1]);
     point++;
     break;
   }
@@ -237,7 +237,7 @@ do
 
   if(foodList.toLocaleLowerCase() === '1' || foodList.toLocaleLowerCase() === '5')
   {
-    alert('good guess, ' + fList[foodList]);
+    alert('good guess, ' + fList[Number(foodList)-1]);
     point++;
     break;
   }
@@ -252,7 +252,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + fList[0] + '\n' + fList[4]);
+  alert('Correct answer: \n' + fList[0] + '\n' + fList[4]);
 }
 
 console.log('Your points: '+ point);
@@ -276,7 +276,7 @@ do
 
   if(sportList.toLocaleLowerCase() === '2' || sportList.toLocaleLowerCase() === '4')
   {
-    alert('good guess: ' + sList[sportList]);
+    alert('good guess: ' + sList[Number(sportList)-1]);
     point++;
     break;
   }
@@ -291,7 +291,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + sList[1] + '\n' + sList[3]);
+  alert('Correct answer: \n' + sList[1] + '\n' + sList[3]);
 }
 
 console.log('Your points: '+ point);
@@ -315,7 +315,7 @@ do
 
   if(fruitsList.toLocaleLowerCase() === '1' || fruitsList.toLocaleLowerCase() === '4')
   {
-    alert('good guess: ' + frList[fruitsList]);
+    alert('good guess: ' + frList[Number(fruitsList)-1]);
     point++;
     break;
   }
@@ -330,7 +330,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + frList[1] + '\n' + frList[3]);
+  alert('Correct answer: \n' + frList[1] + '\n' + frList[3]);
 }
 
 console.log('Your points: '+ point);
@@ -354,7 +354,7 @@ do
 
   if(petList.toLocaleLowerCase() === '1' || petList.toLocaleLowerCase() === '4')
   {
-    alert('good guess: ' + pList[petList]);
+    alert('good guess: ' + pList[Number(petList)-1]);
     point++;
     break;
   }
@@ -369,7 +369,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + pList[0] + '\n' + pList[3]);
+  alert('Correct answer: \n' + pList[0] + '\n' + pList[3]);
 }
 
 console.log('Your points: '+ point);
@@ -393,7 +393,7 @@ do
 
   if(singerList.toLocaleLowerCase() === '1' || singerList.toLocaleLowerCase() === '5')
   {
-    alert('good guess: ' + siList[singerList]);
+    alert('good guess: ' + siList[Number(singerList)-1]);
     point++;
     break;
   }
@@ -408,7 +408,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + siList[0] + '\n' + siList[3]);
+  alert('Correct answer: \n' + siList[0] + '\n' + siList[3]);
 }
 
 console.log('Your points: '+ point);
@@ -432,7 +432,7 @@ do
 
   if(musicList.toLocaleLowerCase() === '1' || musicList.toLocaleLowerCase() === '2')
   {
-    alert('good guess: ' + tfmList[musicList]);
+    alert('good guess: ' + tfmList[Number(musicList)-1]);
     point++;
     break;
   }
@@ -447,7 +447,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + tfmList[0] + '\n' + tfmList[1]);
+  alert('Correct answer: \n' + tfmList[0] + '\n' + tfmList[1]);
 }
 
 console.log('Your points: '+ point);
@@ -471,7 +471,7 @@ do
 
   if(seriesList.toLocaleLowerCase() === '1' || seriesList.toLocaleLowerCase() === '3')
   {
-    alert('good guess: ' + seList[seriesList]);
+    alert('good guess: ' + seList[Number(seriesList)-1]);
     point++;
     break;
   }
@@ -486,7 +486,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + seList[0] + '\n' + seList[2]);
+  alert('Correct answer: \n' + seList[0] + '\n' + seList[2]);
 }
 
 console.log('Your points: '+ point);
@@ -510,7 +510,7 @@ do
 
   if(styleList.toLocaleLowerCase() === '2' || styleList.toLocaleLowerCase() === '4')
   {
-    alert('good guess: ' + cseList[styleList]);
+    alert('good guess: ' + cseList[Number(styleList)-1]);
     point++;
     break;
   }
@@ -525,7 +525,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + cseList[1] + '\n' + cseList[3]);
+  alert('Correct answer: \n' + cseList[1] + '\n' + cseList[3]);
 }
 
 console.log('Your points: '+ point);
