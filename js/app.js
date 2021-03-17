@@ -168,6 +168,7 @@ do
   }
 
   tryCount -= 1;
+  alert('Please choose a number between 1 - ' + (wList.length +1));
 } while(watchList.toLocaleLowerCase() && tryCount > 0);
 
 console.log('Your points: '+ point);
@@ -202,6 +203,7 @@ do
   }
 
   tryCount -= 1;
+  alert('Please choose a number between 1 - ' + (colorList.length +1));
 } while(colorList.toLocaleLowerCase() && tryCount > 0);
 
 console.log('Your points: '+ point);
@@ -235,6 +237,7 @@ do
   }
 
   tryCount -= 1;
+  alert('Please choose a number between 1 - ' + (foodList.length +1));
 } while(foodList.toLocaleLowerCase() && tryCount > 0);
 
 console.log('Your points: '+ point);
@@ -268,6 +271,7 @@ do
   }
 
   tryCount -= 1;
+  alert('Please choose a number between 1 - ' + (sportList.length +1));
 } while(sportList.toLocaleLowerCase() && tryCount > 0);
 
 console.log('Your points: '+ point);
@@ -301,6 +305,7 @@ do
   }
 
   tryCount -= 1;
+  alert('Please choose a number between 1 - ' + (fruitsList.length +1));
 } while(fruitsList.toLocaleLowerCase() && tryCount > 0);
 
 console.log('Your points: '+ point);
@@ -334,6 +339,7 @@ do
   }
 
   tryCount -= 1;
+  alert('Please choose a number between 1 - ' + (petList.length +1));
 } while(petList.toLocaleLowerCase() && tryCount > 0);
 
 console.log('Your points: '+ point);
@@ -367,6 +373,7 @@ do
   }
 
   tryCount -= 1;
+  alert('Please choose a number between 1 - ' + (singerList.length +1));
 } while(singerList.toLocaleLowerCase() && tryCount > 0);
 
 console.log('Your points: '+ point);
@@ -400,6 +407,7 @@ do
   }
 
   tryCount -= 1;
+  alert('Please choose a number between 1 - ' + (musicList.length +1));
 } while(musicList.toLocaleLowerCase() && tryCount > 0);
 
 console.log('Your points: '+ point);
@@ -433,6 +441,7 @@ do
   }
 
   tryCount -= 1;
+  alert('Please choose a number between 1 - ' + (seriesList.length +1));
 } while(seriesList.toLocaleLowerCase() && tryCount > 0);
 
 console.log('Your points: '+ point);
@@ -466,6 +475,7 @@ do
   }
 
   tryCount -= 1;
+  alert('Please choose a number between 1 - ' + (styleList.length +1));
 } while(styleList.toLocaleLowerCase() && tryCount > 0);
 
 console.log('Your points: '+ point);
