@@ -158,7 +158,7 @@ do
 
   if(watchList.toLocaleLowerCase() === '1' || watchList.toLocaleLowerCase() === '3' || watchList.toLocaleLowerCase() === '5')
   {
-    alert('guess good');
+    alert('good guess, ' + wList[watchList]);
     point++;
     break;
   }
@@ -168,8 +168,13 @@ do
   }
 
   tryCount -= 1;
-  alert('Please choose a number between 1 - ' + (wList.length +1));
+  alert('Please choose a number between 1 - ' + (wList.length));
 } while(watchList.toLocaleLowerCase() && tryCount > 0);
+
+if (tryCount === 0)
+{
+  alert('Correct answer: ' + wList[1] + '\n' + wList[3] + '\n' + wList[5]);
+}
 
 console.log('Your points: '+ point);
 
@@ -193,7 +198,7 @@ do
 
   if(colorList.toLocaleLowerCase() === '1' || colorList.toLocaleLowerCase() === '3')
   {
-    alert('guess good');
+    alert('good guess ' + cList[colorList]);
     point++;
     break;
   }
@@ -203,8 +208,13 @@ do
   }
 
   tryCount -= 1;
-  alert('Please choose a number between 1 - ' + (colorList.length +1));
+  alert('Please choose a number between 1 - ' + (cList.length));
 } while(colorList.toLocaleLowerCase() && tryCount > 0);
+
+if (tryCount === 0)
+{
+  alert('Correct answer: ' + cList[1] + '\n' + cList[3]);
+}
 
 console.log('Your points: '+ point);
 
@@ -227,7 +237,7 @@ do
 
   if(foodList.toLocaleLowerCase() === '1' || foodList.toLocaleLowerCase() === '5')
   {
-    alert('guess good');
+    alert('good guess, ' + fList[foodList]);
     point++;
     break;
   }
@@ -237,8 +247,13 @@ do
   }
 
   tryCount -= 1;
-  alert('Please choose a number between 1 - ' + (foodList.length +1));
+  alert('Please choose a number between 1 - ' + (fList.length));
 } while(foodList.toLocaleLowerCase() && tryCount > 0);
+
+if (tryCount === 0)
+{
+  alert('Correct answer: ' + fList[1] + '\n' + fList[5]);
+}
 
 console.log('Your points: '+ point);
 
@@ -261,7 +276,7 @@ do
 
   if(sportList.toLocaleLowerCase() === '2' || sportList.toLocaleLowerCase() === '4')
   {
-    alert('guess good');
+    alert('good guess: ' + sList[sportList]);
     point++;
     break;
   }
@@ -271,8 +286,13 @@ do
   }
 
   tryCount -= 1;
-  alert('Please choose a number between 1 - ' + (sportList.length +1));
+  alert('Please choose a number between 1 - ' + (sList.length));
 } while(sportList.toLocaleLowerCase() && tryCount > 0);
+
+if (tryCount === 0)
+{
+  alert('Correct answer: ' + sList[2] + '\n' + sList[4]);
+}
 
 console.log('Your points: '+ point);
 
@@ -295,7 +315,7 @@ do
 
   if(fruitsList.toLocaleLowerCase() === '1' || fruitsList.toLocaleLowerCase() === '4')
   {
-    alert('guess good');
+    alert('good guess: ' + frList[fruitsList]);
     point++;
     break;
   }
@@ -305,8 +325,13 @@ do
   }
 
   tryCount -= 1;
-  alert('Please choose a number between 1 - ' + (fruitsList.length +1));
+  alert('Please choose a number between 1 - ' + (frList.length));
 } while(fruitsList.toLocaleLowerCase() && tryCount > 0);
+
+if (tryCount === 0)
+{
+  alert('Correct answer: ' + frList[2] + '\n' + frList[4]);
+}
 
 console.log('Your points: '+ point);
 
@@ -329,7 +354,7 @@ do
 
   if(petList.toLocaleLowerCase() === '1' || petList.toLocaleLowerCase() === '4')
   {
-    alert('guess good');
+    alert('good guess: ' + pList[petList]);
     point++;
     break;
   }
@@ -339,8 +364,13 @@ do
   }
 
   tryCount -= 1;
-  alert('Please choose a number between 1 - ' + (petList.length +1));
+  alert('Please choose a number between 1 - ' + (pList.length));
 } while(petList.toLocaleLowerCase() && tryCount > 0);
+
+if (tryCount === 0)
+{
+  alert('Correct answer: ' + pList[1] + '\n' + pList[4]);
+}
 
 console.log('Your points: '+ point);
 
@@ -363,7 +393,7 @@ do
 
   if(singerList.toLocaleLowerCase() === '1' || singerList.toLocaleLowerCase() === '5')
   {
-    alert('guess good');
+    alert('good guess: ' + siList[singerList]);
     point++;
     break;
   }
@@ -373,8 +403,13 @@ do
   }
 
   tryCount -= 1;
-  alert('Please choose a number between 1 - ' + (singerList.length +1));
+  alert('Please choose a number between 1 - ' + (siList.length));
 } while(singerList.toLocaleLowerCase() && tryCount > 0);
+
+if (tryCount === 0)
+{
+  alert('Correct answer: ' + siList[1] + '\n' + siList[4]);
+}
 
 console.log('Your points: '+ point);
 
@@ -397,7 +432,7 @@ do
 
   if(musicList.toLocaleLowerCase() === '1' || musicList.toLocaleLowerCase() === '2')
   {
-    alert('guess good');
+    alert('good guess: ' + tfmList[musicList]);
     point++;
     break;
   }
@@ -407,8 +442,13 @@ do
   }
 
   tryCount -= 1;
-  alert('Please choose a number between 1 - ' + (musicList.length +1));
+  alert('Please choose a number between 1 - ' + (tfmList.length));
 } while(musicList.toLocaleLowerCase() && tryCount > 0);
+
+if (tryCount === 0)
+{
+  alert('Correct answer: ' + tfmList[1] + '\n' + tfmList[2]);
+}
 
 console.log('Your points: '+ point);
 
@@ -431,7 +471,7 @@ do
 
   if(seriesList.toLocaleLowerCase() === '1' || seriesList.toLocaleLowerCase() === '3')
   {
-    alert('guess good');
+    alert('good guess: ' + seList[seriesList]);
     point++;
     break;
   }
@@ -441,8 +481,13 @@ do
   }
 
   tryCount -= 1;
-  alert('Please choose a number between 1 - ' + (seriesList.length +1));
+  alert('Please choose a number between 1 - ' + (seList.length));
 } while(seriesList.toLocaleLowerCase() && tryCount > 0);
+
+if (tryCount === 0)
+{
+  alert('Correct answer: ' + seList[1] + '\n' + seList[3]);
+}
 
 console.log('Your points: '+ point);
 
@@ -465,7 +510,7 @@ do
 
   if(styleList.toLocaleLowerCase() === '2' || styleList.toLocaleLowerCase() === '4')
   {
-    alert('guess good');
+    alert('good guess: ' + cseList[styleList]);
     point++;
     break;
   }
@@ -475,8 +520,13 @@ do
   }
 
   tryCount -= 1;
-  alert('Please choose a number between 1 - ' + (styleList.length));
+  alert('Please choose a number between 1 - ' + (cseList.length));
 } while(styleList.toLocaleLowerCase() && tryCount > 0);
+
+if (tryCount === 0)
+{
+  alert('Correct answer: ' + cseList[2] + '\n' + cseList[4]);
+}
 
 console.log('Your points: '+ point);
 
@@ -495,7 +545,7 @@ do
 
   if(Number(numberList) === 5)
   {
-    alert('guess good');
+    alert('good guess: ' + numberList);
     point++;
     break;
   }
@@ -510,3 +560,9 @@ do
 
   tryCount -= 1;
 } while(tryCount > 0);
+
+
+if (tryCount === 0)
+{
+  alert('Correct answer: 5');
+}
