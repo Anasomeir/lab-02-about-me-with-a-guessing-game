@@ -475,7 +475,7 @@ do
   }
 
   tryCount -= 1;
-  alert('Please choose a number between 1 - ' + (styleList.length +1));
+  alert('Please choose a number between 1 - ' + (styleList.length));
 } while(styleList.toLocaleLowerCase() && tryCount > 0);
 
 console.log('Your points: '+ point);
