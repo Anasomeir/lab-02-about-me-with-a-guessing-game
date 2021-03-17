@@ -150,7 +150,7 @@ for(let i = 0; i < wList.length; i++)
 
 let watchList;
 
-tryCount = 5;
+tryCount = 6;
 
 do
 {
@@ -190,7 +190,7 @@ for(let i = 0; i < cList.length; i++)
 
 let colorList;
 
-tryCount = 5;
+tryCount = 6;
 
 do
 {
@@ -213,7 +213,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + cList[1] + '\n' + cList[3]);
+  alert('Correct answer: \n' + cList[0] + '\n' + cList[2]);
 }
 
 console.log('Your points: '+ point);
@@ -229,7 +229,7 @@ for(let i = 0; i < fList.length; i++)
 
 let foodList;
 
-tryCount = 5;
+tryCount = 6;
 
 do
 {
@@ -252,7 +252,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + fList[1] + '\n' + fList[5]);
+  alert('Correct answer: ' + fList[0] + '\n' + fList[4]);
 }
 
 console.log('Your points: '+ point);
@@ -268,7 +268,7 @@ for(let i = 0; i < sList.length; i++)
 
 let sportList;
 
-tryCount = 5;
+tryCount = 6;
 
 do
 {
@@ -291,7 +291,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + sList[2] + '\n' + sList[4]);
+  alert('Correct answer: ' + sList[1] + '\n' + sList[3]);
 }
 
 console.log('Your points: '+ point);
@@ -307,7 +307,7 @@ for(let i = 0; i < frList.length; i++)
 
 let fruitsList;
 
-tryCount = 5;
+tryCount = 6;
 
 do
 {
@@ -330,7 +330,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + frList[2] + '\n' + frList[4]);
+  alert('Correct answer: ' + frList[1] + '\n' + frList[3]);
 }
 
 console.log('Your points: '+ point);
@@ -346,7 +346,7 @@ for(let i = 0; i < pList.length; i++)
 
 let petList;
 
-tryCount = 5;
+tryCount = 6;
 
 do
 {
@@ -369,7 +369,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + pList[1] + '\n' + pList[4]);
+  alert('Correct answer: ' + pList[0] + '\n' + pList[3]);
 }
 
 console.log('Your points: '+ point);
@@ -385,7 +385,7 @@ for(let i = 0; i < siList.length; i++)
 
 let singerList;
 
-tryCount = 5;
+tryCount = 6;
 
 do
 {
@@ -408,7 +408,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + siList[1] + '\n' + siList[4]);
+  alert('Correct answer: ' + siList[0] + '\n' + siList[3]);
 }
 
 console.log('Your points: '+ point);
@@ -424,7 +424,7 @@ for(let i = 0; i < tfmList.length; i++)
 
 let musicList;
 
-tryCount = 5;
+tryCount = 6;
 
 do
 {
@@ -447,7 +447,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + tfmList[1] + '\n' + tfmList[2]);
+  alert('Correct answer: ' + tfmList[0] + '\n' + tfmList[1]);
 }
 
 console.log('Your points: '+ point);
@@ -463,7 +463,7 @@ for(let i = 0; i < seList.length; i++)
 
 let seriesList;
 
-tryCount = 5;
+tryCount = 6;
 
 do
 {
@@ -486,7 +486,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + seList[1] + '\n' + seList[3]);
+  alert('Correct answer: ' + seList[0] + '\n' + seList[2]);
 }
 
 console.log('Your points: '+ point);
@@ -502,7 +502,7 @@ for(let i = 0; i < cseList.length; i++)
 
 let styleList;
 
-tryCount = 5;
+tryCount = 6;
 
 do
 {
@@ -525,7 +525,7 @@ do
 
 if (tryCount === 0)
 {
-  alert('Correct answer: ' + cseList[2] + '\n' + cseList[4]);
+  alert('Correct answer: ' + cseList[1] + '\n' + cseList[3]);
 }
 
 console.log('Your points: '+ point);
@@ -537,7 +537,7 @@ text = 'guess a number between 1-10?';
 
 let numberList;
 
-tryCount = 5;
+tryCount = 6;
 
 do
 {
