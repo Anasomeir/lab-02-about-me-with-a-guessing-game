@@ -138,8 +138,11 @@ alert('Now you in the second stage, of the guessing game, you ready?');
 
 let point = 0;
 let tryCount = 0;
+let text = '';
 
-let text = 'Three of this list are my favorites movies, can u guess it?';
+// start q1
+
+text = 'Three of this list are my favorites movies, can u guess it?';
 
 let wList = ['1. The Pianist', '2. Inception', '3. Nightcrawler', '4. Parasite', '5. Taxi Driver', '6. Fight Club', '7. Joker', '8. Green Book'];
 
@@ -178,6 +181,9 @@ if (tryCount === 0)
 
 console.log('Your points: '+ point);
 
+// end q1
+
+// start q2
 
 text = 'Two of this list are my favorites color, can u guess it?';
 
@@ -218,6 +224,10 @@ if (tryCount === 0)
 
 console.log('Your points: '+ point);
 
+// end q2
+
+// start q3
+
 text = 'Two of this list are my favorites food, can u guess it?';
 
 let fList = ['1. Mansaf', '2. Kabsa', '3. Muhashi', '4. Mujdara', '5. Waraq Eanab'];
@@ -256,6 +266,10 @@ if (tryCount === 0)
 }
 
 console.log('Your points: '+ point);
+
+// end q3
+
+// start q4
 
 text = 'Two of this list are my favorites sport, can u guess it?';
 
@@ -296,6 +310,10 @@ if (tryCount === 0)
 
 console.log('Your points: '+ point);
 
+// end q4
+
+// start q5
+
 text = 'Two of this list are my favorites fruits, can u guess it?';
 
 let frList = ['1. Orange', '2. Pomegranate', '3. Banana ', '4. Cranberry', '5. Almond'];
@@ -334,6 +352,10 @@ if (tryCount === 0)
 }
 
 console.log('Your points: '+ point);
+
+// end q5
+
+// start q6
 
 text = 'Two of this list are my favorites pet, can u guess it?';
 
@@ -374,6 +396,10 @@ if (tryCount === 0)
 
 console.log('Your points: '+ point);
 
+// end q6
+
+// start q7
+
 text = 'Two of this list are my favorites singer, can u guess it?';
 
 let siList = ['1. Kazem El Saher', '2. Fadl Shaker', '3. Adam', '4. Adham', '5. Eminem'];
@@ -412,6 +438,10 @@ if (tryCount === 0)
 }
 
 console.log('Your points: '+ point);
+
+// end q7
+
+// start q8
 
 text = 'Two of this list are my favorites type of music, can u guess it?';
 
@@ -452,6 +482,10 @@ if (tryCount === 0)
 
 console.log('Your points: '+ point);
 
+// end q8
+
+// start q9
+
 text = 'Two of this list are my favorites type of series, can u guess it?';
 
 let seList = ['1. Ted Lasso', '2. dark', '3. Breaking Bad ', '4. Black Mirror', '5. Vikings'];
@@ -490,6 +524,10 @@ if (tryCount === 0)
 }
 
 console.log('Your points: '+ point);
+
+// end q9
+
+// start q10
 
 text = 'Two of this list are my favorites type of clothing style, can u guess it?';
 
@@ -530,8 +568,13 @@ if (tryCount === 0)
 
 console.log('Your points: '+ point);
 
-alert('Your points: '+ point);
+// end q10
 
+
+
+alert('Your points: '+ point + '/ 10');
+
+// start q11
 
 text = 'guess a number between 1-10?';
 
@@ -566,3 +609,5 @@ if (tryCount === 0)
 {
   alert('Correct answer: 5');
 }
+
+// end q11
